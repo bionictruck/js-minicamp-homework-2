@@ -156,12 +156,12 @@ function wordsToSentence(words) {
 function contains(arr, item) {
   //check to see if item is inside of arr
   //return true if it is, otherwise return false
-  if (arr.indexOf(item) != -1) {
-    return true;
+  for ( var i = 0; i < arr.length; i++) {
+    if (arr[i] === item) {
+      return true;
+    }
   }
-  else {
-    return false;
-  }
+  return false;
 }
 
 function addNumbers(numbers) {
