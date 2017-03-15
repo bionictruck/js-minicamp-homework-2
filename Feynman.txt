@@ -1,0 +1,7 @@
+for loop - continues to run a block of for each item until it is false
+&& -  && mean both items must be true
+|| - only check that one OR the other is true
+! - executes code if the current value IS NOT something
+Array - A collection of items like a shopping list "Eggs, Bread, Milk"
+git - The software/commands used to interact with code version systems like github, gitlab
+GitHub - Online storage for code. Several people can work on the same "master" copy and request to have their changes merged into it
